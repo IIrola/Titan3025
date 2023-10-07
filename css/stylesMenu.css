@@ -42,8 +42,31 @@ section div.container div#Company-Hytorc img.Pet-Hytorc{
   width: 70%;
   filter: brightness(100%);
 }
+#Action1{
+    display: none;
+}
+#Action2{
+    display: none;
+}
+#Action3{
+    display: none;
+}
+#end{
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
 section div#PrimaryContainer{
-  width: 85% !important;
+    width: 85% !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 537px;
 }
 .container{
   animation: myAnim 3s ease 0s 1 normal forwards;
