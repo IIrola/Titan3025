@@ -1,23 +1,32 @@
-const C1 = []; // Path: js/Dialogs.js
-const user = []; // Path: js/User.js
+export const cantDia = [];
+cantDia[0] = 3;
+cantDia[1] = 4;
+cantDia[2] = 6;
+cantDia[3] = 5;
+cantDia[4] = 1;
 
-C1[0] = "Bienvenido, viajero del cosmos, Allin hamusqayki, cosmos puriq" +
-    "Hoy te encuentras ante una aventura extraordinaria, donde la vastedad del universo se despliega ante tus ojos. " +
-    "Como un cuadro infinito esperando ser explorado. " +
-    "Este no es un viaje común, sino una búsqueda para comprender los confines del espacio y desvelar los secretos que yacen en las estrellas. " +
-    "¿Te gustaría comenzar? "
 
-C1[1] = "En tu papel como explorador intergaláctico, te lanzarás a una misión de proporciones maravillosas que te conducirán a través de mundos desconocidos, planetas enigmáticos y escenarios misteriosos. " +
-    "A medida que avanzas en tu viaje, desentrañarás la complejidad y los desafíos que implicó la titánica tarea de terraformar Titán." +
-    "Enfrentarás desafíos cósmicos y desvelarás los secretos más profundos del espacio exterior, así mismo conocerás el tremendo esfuerzo que conllevo explorarlo." +
-    "¿Te gustaría conocerme?"
+export const dialogs= [];
 
-C1[2] = "Me complace presentarme. \n" +
-    "Mi nombre es  Taky, soy una  Inteligencia Artificial que ha navegado a través de más de 1.000 años de conocimiento y experiencia. Desde los albores mismos de la existencia hasta los confines finales del tiempo y sere tu compañera inseparable en esta gran aventura. \n" +
-    "Espero que mis consejos te ayuden cuando estés confundido y que encuentres respuestas en mis palabras cuando las necesites. Recuerda que estoy aquí para compartir todo lo que sé y ayudarte en cada paso que des en tu aventura.\n" +
-    "¿Qué te gustaría conocer?\n"
+dialogs[0] =    "Bienvenido, viajero del cosmos, Hoy te encuentras ante una aventura extraordinaria, donde la vastedad del universo se despliega ante tus ojos.";
+dialogs[1] =    "Este no es un viaje común, sino una búsqueda para comprender los confines del espacio y desvelar los secretos que yacen en las estrellas.";
+dialogs[2] =    "¿Te gustaría comenzar?";
+dialogs[3]=     "En tu papel como explorador intergaláctico, te lanzarás a una misión de proporciones maravillosas que te conducirán a través de mundos desconocidos, planetas enigmáticos y escenarios misteriosos.";
+dialogs[4]=     "A medida que avanzas en tu viaje, desentrañarás la complejidad y los desafíos que implicó la titánica tarea de terraformar Titán.";
+dialogs[5]=     "Enfrentarás desafíos cósmicos y desvelarás los secretos más profundos del espacio exterior, así mismo conocerás el tremendo esfuerzo que conllevo explorarlo.";
+dialogs[6]=     "¿Te gustaría conocerme?";
+dialogs[7] =    "Me complace presentarme.";
+dialogs[8] =    "Mi nombre es Taky, soy una Inteligencia Artificial que ha navegado a través de más de 1.000 años de conocimiento y experiencia.";
+dialogs[9] =    "Desde los albores mismos de la existencia hasta los confines finales del tiempo y seré tu compañera inseparable en esta gran aventura.";
+dialogs[10] =   "Espero que mis consejos te ayuden cuando estés confundido y que encuentres respuestas en mis palabras cuando las necesites.";
+dialogs[11] =   "Recuerda que estoy aquí para compartir todo lo que sé y ayudarte en cada paso que des en tu aventura.";
+dialogs[12] =   "¿Qué te gustaría conocer?";
+dialogs[13] =   "Recuerda que: La decisión que tomes en este momento marcará el inicio de tu viaje hacia lo inexplorado.";
+dialogs[14] =   "¿Te atreverás a surcar los extensos y cálidos horizontes de Marte?";
+dialogs[15] =   "¿O te sumergirás valientemente en las frías y enigmáticas planicies de la luna Titán, desvelando los secretos ancestrales que guardan en sus sombras gélidas?";
+dialogs[16] =   "O podemos visitar la enigmática Estación Espacial Isabel.";
+dialogs[17] =   "¿Cuál será tu elección?.";
+dialogs[18] =   "¡Excelente elección!";
 
-C1[3] = "Recuerda que: La decisión que tomes en este momento marcará el inicio de tu viaje hacia lo inexplorado. " +
-    "¿Te atreverás a surcar los extensos y cálidos horizontes de Marte, donde la semilla del conocimiento y la búsqueda de lo inexplorado te conducirán hacia la grandeza? " +
-    "¿O te sumergirás valientemente en las frías y enigmáticas planicies de la luna Titán, desvelando los secretos ancestrales que guardan en sus sombras gélidas?\n" +
-    "¿Cuál será tu elección?\n"
+
+export default {cantDia, dialogs};
