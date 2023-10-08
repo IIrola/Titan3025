@@ -20,7 +20,7 @@ div.index{
   width: 100vw; 
 }
 div.StartTheGame{
-    background: url(../img/C.1.0/1.jpg) !important;
+    background: url(../img/C1.0/1.jpg) !important;
     background-repeat: no-repeat !important;
     background-position: bottom !important;
     background-size: 138% !important;
@@ -28,7 +28,7 @@ div.StartTheGame{
     width: 100vw;
 }
 div.aventurasTaky{
-    background: url(../img/C.1.0/1.jpg) !important;
+    background: url(../img/C1.0/1.jpg) !important;
     background-repeat: no-repeat !important;
     background-position: bottom !important;
     background-size: 138% !important;
@@ -102,6 +102,14 @@ div.container{
     justify-content: space-evenly;
     margin-left: 10px;
 }
+div.frames{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    min-height: auto;
+    min-width: auto;
+}
 div.contenedor-cards{
     position: relative;
     top: 40%;
@@ -121,7 +129,7 @@ div.cuadrados{
     align-items: center;
 }
 div#Cuadrado-1{
-    background-image: url(../img/C.1.0/0.jpg);
+    background-image: url(../img/C1.0/0.jpg);
     background-size: contain;
 }
 /*BOOSTRAP*/
@@ -305,4 +313,3 @@ div#Cuadrado-1{
       
   }
 }
-

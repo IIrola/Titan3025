@@ -8,18 +8,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
-    <div class="position-fixed top-0 start-0 w-100 h-100 index ">
-        <a href="">
-            <img src="img/items/setting.svg" alt="Buttom de configuraciones" width="50" class="cordenadas">
+    <div id="divStart" class="position-fixed top-0 start-0 w-100 h-100 index" style="display: flex">
+        <a id="Config">
+            <img src="img/items/setting.svg" alt="Configuration button" width="50" class="cordenadas">
         </a>
         <div class="text-center container-title">
             <h1 class="text-center">TAKY</h1>
             <h5 class="text-center">Una divertida aventura</h5>
         </div>
-        <a href="html/Capitulo1-StartTheGame.html">
-            <img src="img/items/start.svg" alt="Buttom de inicio">
+        <a id="Start">
+            <img src="img/items/start.svg" alt="Start button">
         </a>
     </div>
+
+    <div id="DivFra" class="position-fixed top-0 start-0 frames" style="display: none">
+        <iframe id="Frames" src="html/Capitulo1-StartTheGame.html" width="100%" height="100%"></iframe>
+    </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
