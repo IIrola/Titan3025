@@ -9,7 +9,7 @@ const dialogs= [];
 
 dialogs[0] =    "Bienvenido, viajero del cosmos, Hoy te encuentras ante una aventura extraordinaria, donde la vastedad del universo se despliega ante tus ojos.";
 dialogs[1] =    "Este no es un viaje común, sino una búsqueda para comprender los confines del espacio y desvelar los secretos que yacen en las estrellas.";
-dialogs[2] =    "¿Te gustaría comenzar?";
+dialogs[2] =    "¿Te gustaría comenzar??";
 dialogs[3]=     "En tu papel como explorador intergaláctico, te lanzarás a una misión de proporciones maravillosas que te conducirán a través de mundos desconocidos, planetas enigmáticos y escenarios misteriosos.";
 dialogs[4]=     "A medida que avanzas en tu viaje, desentrañarás la complejidad y los desafíos que implicó la titánica tarea de terraformar Titán.";
 dialogs[5]=     "Enfrentarás desafíos cósmicos y desvelarás los secretos más profundos del espacio exterior, así mismo conocerás el tremendo esfuerzo que conllevo explorarlo.";
