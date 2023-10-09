@@ -6,9 +6,9 @@ cantDia[3] = 4;
 cantDia[4] = 1;
 
 
-/*Comienzo start*/
+/*first dialogs*/
 const Introduction = 5;
-/*Comienzo marte*/
+/*Start mars*/
 const changesMars = [];
 changesMars[0] = 6;
 changesMars[1] = 7;
@@ -21,8 +21,8 @@ changesMars[7] = 13;
 changesMars[8] = 14;
 changesMars[9] = 15;
 changesMars[10] = 16;
-/*Fin marte*/
-/*Comienzo isabel*/
+/*End mars*/
+/*Start isabel*/
 const changesIsa = [];
 changesIsa[0] = 17;
 changesIsa[1] = 18;
@@ -80,7 +80,7 @@ window.onload = function () {
 
     box.onclick = function () {
 
-        if(dia === cantDia[dia]) {
+        if(dia > Introduction) {
 
             if (num < Tc[pres]) {
                 num++;
@@ -114,7 +114,7 @@ function presentDiag(cicle, diag, countT, item) {
 }
 
 function urlImg(cap, pres, num) {
-    return "url('img/C" + cap + "." + pres + "/" + num + ".jpg')";
+    return "url('../img/C" + cap + "." + pres + "/" + num + ".jpg')";
 }
 
 function getDia(sec) {
