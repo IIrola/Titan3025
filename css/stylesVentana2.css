@@ -22,50 +22,50 @@ body {
 .index{
   
 
-  background: url(../img/C1.1/0.jpg) no-repeat center center fixed; /* URL de la imagen de fondo */
+    background: url(../img/ITEM/descarga.jpg) no-repeat center center fixed; /* URL de la imagen de fondo */
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
     height: 100vh; /* Establece la altura al 100% del viewport */
     width: 100vw; /* Establece el ancho al 100% del viewport */
     display: flex;
     justify-content: center; /* Centra horizontalmente el contenido */
     align-items: center; /* Centra verticalmente el contenido */
+    height: 100vh; 
+    width: 100vw;
 
- 
-  height: 100vh; 
-  width: 100vw;
-
-  .avance-image {
+.avance-image {
     position: absolute;
-    bottom: 50px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
-    left: 50%; /* Coloca la imagen en el centro horizontalmente */
-    transform: translateX(-50%); /* Corrige la posición horizontal de la imagen */
+    bottom: 5%; /* Coloca la imagen en la parte inferior al medio */
+    left: 75%; /* Coloca la imagen en el centro horizontalmente */
+    transform: translate(-50%, 50%); /* Corrige la posición de la imagen al centro */
     width: auto; /* Ajusta el ancho de la imagen según tus necesidades */
-    left: 900px;
     height: auto; /* Mantiene la proporción de aspecto */
     z-index: 1; /* Coloca la imagen encima de las otras */
 
   }
   .fondo-letra-image {
     position: absolute;
-    bottom: 25%; /* Coloca la imagen en la parte inferior al medio */
+    bottom: 16%; /* Coloca la imagen en la parte inferior al medio */
     left: 50%; /* Coloca la imagen en el centro horizontalmente */
     transform: translate(-50%, 50%); /* Corrige la posición de la imagen al centro */
-    width: auto; /* Ajusta el ancho de la imagen según tus necesidades */
+    width: 70%; /* Ajusta el ancho de la imagen según tus necesidades */
     height: auto; /* Mantiene la proporción de aspecto */
+    
   }
 
   .retro-image {
     position: absolute;
-    top: 100px; /* Ajusta la distancia desde la parte superior según tus necesidades */
-    left: 20px; /* Ajusta la distancia desde la izquierda según tus necesidades */
-    width: 50px; /* Ajusta el ancho de la imagen según tus necesidades */
-    height: auto; /* Mantiene la proporción de aspecto */
+    bottom: 50%; /* Coloca la imagen en la parte inferior al medio */
+    left: 50%; /* Coloca la imagen en el centro horizontalmente */
+    transform: translate(-50%, 50%); /* Corrige la posición de la imagen al centro */
+    width: 80%; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: 80%; /* Mantiene la proporción de aspecto */
+
   }
   
   .image-container {
     position: absolute;
     top: 100px; /* Ajusta la distancia desde la parte superior según tus necesidades */
-    right: 0px; /* Ajusta la distancia desde la derecha según tus necesidades */
+    right: 8%; /* Ajusta la distancia desde la derecha según tus necesidades */
     display: flex;
     flex-direction: column; /* Apila las imágenes una debajo de la otra */
     align-items: flex-end; /* Alinea las imágenes a la derecha */
@@ -75,22 +75,14 @@ body {
   .image-container img {
   margin-bottom: 20px; /* Espacio entre las imágenes */
   width: auto; /* Ajusta el ancho de las imágenes según tus necesidades */
-  height: 50px; /* Mantiene la proporción de aspecto */
+  height: auto; /* Mantiene la proporción de aspecto */
 
 
   }
  
 }
 
-.header-text {
-  font-family: 'Orbitron', sans-serif; /* Fuente de Google Fonts */
-  font-size: 24px; /* Tamaño de fuente deseado */
-  font-weight: 600;
-  color: white; /* Color de texto */
-  position: absolute; /* Posicionamiento absoluto */
-  top: 20px; /* Espacio desde la parte superior */
-  left: 20px; /* Espacio desde la izquierda */
-}
+
 
 
 /*=============================*/

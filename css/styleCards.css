@@ -1,0 +1,345 @@
+*{
+  box-sizing: border-box;
+  font-family: "poppins";
+  margin: auto;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  letter-spacing: 1px;
+  transition: background 0.2s ease;
+  -webkit-transition: background 0.2s ease;
+  -moz-transition: background 0.2s ease;
+  -ms-transition: background 0.2s ease;
+  -o-transition: background 0.2s ease;
+}
+.index{
+  
+
+    background: url(../img/ITEM/descarga.jpg) no-repeat center center fixed; /* URL de la imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    height: 100vh; /* Establece la altura al 100% del viewport */
+    width: 100vw; /* Establece el ancho al 100% del viewport */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    height: 100vh; 
+    width: 100vw;
+  
+
+  .retro-image {
+    position: absolute;
+    bottom: 50%; /* Coloca la imagen en la parte inferior al medio */
+    left: 50%; /* Coloca la imagen en el centro horizontalmente */
+    transform: translate(-50%, 50%); /* Corrige la posición de la imagen al centro */
+    width: 80%; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: 80%; /* Mantiene la proporción de aspecto */
+
+
+  }
+  .texto-superior-izquierda {
+  position: absolute;
+  top: 15%; /* Ajusta la distancia desde la parte superior según tus necesidades */
+  left: 15%; /* Ajusta la distancia desde la izquierda según tus necesidades */
+  font-size: 25px; /* Tamaño de fuente deseado */
+  font-weight: bold; /* Puedes ajustar el peso de la fuente según tus preferencias */
+  color: #000000; /* Color del texto */
+  font-family: 'Roboto', sans-serif; /* Aplicar la fuente 'Roboto' */
+}
+.texto-superior-derecha {
+    position: absolute;
+    top: 15%; /* Ajusta la distancia desde la parte superior según tus necesidades */
+    right: 15%; /* Ajusta la distancia desde la izquierda según tus necesidades */
+    font-size: 25px; /* Tamaño de fuente deseado */
+    font-weight: bold; /* Puedes ajustar el peso de la fuente según tus preferencias */
+    color: rgb(0, 0, 0); /* Color del texto */
+    font-family: 'Roboto', sans-serif; /* Aplicar la fuente 'Roboto' */
+    
+    }
+    .image-container {
+        position: absolute;
+        top: 5%; /* Ajusta la distancia desde la parte superior según tus necesidades */
+        left: 35%; /* Ajusta la distancia desde la derecha según tus necesidades */
+        display: flex;
+        justify-content: flex-end; /* Alinea las imágenes a la derecha del contenedor */
+        align-items: center; /* Alinea verticalmente las imágenes al centro */
+        height: 100%; /* Ocupa toda la altura disponible */
+      }
+      
+      .flotante-image {
+        width: 100%; /* Ajusta el ancho de las imágenes según tus necesidades */
+        height: auto; /* Mantiene la proporción de aspecto */
+        .image-container {
+  position: absolute;
+  top: 0; /* Ajusta la distancia desde la parte superior según tus necesidades */
+  right: 50%; /* Ajusta la distancia desde la derecha según tus necesidades */
+  display: flex;
+  justify-content: flex-end; /* Alinea las imágenes a la derecha del contenedor */
+  align-items: center; /* Alinea verticalmente las imágenes al centro */
+  height: 100%; /* Ocupa toda la altura disponible */
+}
+
+.flotante-image {
+  width: auto; /* Ajusta el ancho de las imágenes según tus necesidades */
+  height: auto; /* Mantiene la proporción de aspecto */
+  margin-right: 5%; /* Espacio entre las imágenes */
+}
+        margin-right: 8%; /* Espacio entre las imágenes */
+      }
+.text-container {
+  position: absolute;
+  top: 50%; /* Ajusta la distancia desde la parte superior según tus necesidades */
+  left: 0; /* Alinea el texto izquierdo */
+  right: 0; /* Alinea el texto derecho */
+  text-align: center; /* Alinea el texto central */
+  transform: translateY(-50%); /* Corrige la posición vertical de los textos */
+  width: 100%; /* Ocupa todo el ancho disponible */
+}
+.nuevo-contenedor {
+    position: absolute;
+    top: 0; /* Ajusta la distancia desde la parte superior según tus necesidades */
+    
+  left: 0; /* Ajusta la distancia desde la izquierda según tus necesidades */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    display: flex;
+
+  justify-content: space-between; /* Espacio equitativo entre los elementos */
+    align-items: center; /* Alinea verticalmente los elementos al centro */
+    height: 100%; /* Ocupa toda la altura disponible */
+  }
+  
+  .texto-izquierda,
+  .texto-centro,
+  .texto-derecha 
+  {
+  font-weight: bold; /* Puedes ajustar el peso de la fuente según tus preferencias */
+  font-size: 30px; /* Tamaño de fuente deseado */
+  }
+  .texto-izquierda {
+    margin-left: 80px; /* Espacio desde la izquierda */
+  }
+  .texto-centro {
+    margin: 50px; /* Elimina márgenes para el texto del centro */
+  }
+  .texto-derecha {
+  margin-right: 500px; /* Espacio desde la derecha */
+  }
+
+  .nuevo-contenedor {
+    position: absolute;
+    top: 20%; /* Ajusta la distancia desde la parte superior según tus necesidades */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    display: flex;
+    justify-content: 50%; /* Espacio equitativo entre los elementos */
+    height: 100%; /* Ocupa toda la altura disponible */
+  }
+
+  .image-foto {
+    position: absolute;
+    top: 10px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+    left: 50%; /* Ajusta la distancia desde la derecha según tus necesidades */
+    display: flex;
+    justify-content: flex-end; /* Alinea las imágenes a la derecha del contenedor */
+    align-items: center; /* Alinea verticalmente las imágenes al centro */
+    height: 100%; /* Ocupa toda la altura disponible */
+    margin-right: 4ch; /* Espacio entre las imágenes */
+  }
+  
+  .flotante-foto {
+    width: 100%; /* Ajusta el ancho de las imágenes según tus necesidades */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin-right: 35%; /* Espacio entre las imágenes */
+    
+  }
+
+}
+
+/*=============================*/
+/*BOOSTRAP*/
+[class*="col-"]{
+  float: left;
+  padding: 10px;
+}
+@media (max-width: 1199px) and (min-width: 992px){/*IPAD HECHADO*/
+  .col-md-12{
+      width: 100% ;
+  }
+  .col-md-6{
+      width: 50%;
+  }
+  .col-md-4{
+      width: 33.33333333%;
+  }
+  .col-md-3{
+      width: 25% ;
+  }
+  .col-md-9{
+      width: 75%;
+  }
+  .col-md-7{
+      width: 58.33333333%;
+  }
+  .col-md-5{
+      width: 41.66666666%;
+  }
+  .col-md-8{
+      width: 66.66666666%;
+  }
+  .col-md-2{
+      width: 16.66666666%;
+  }
+  .col-md-1{
+      width: 8.33333333%;
+  }
+  .col-md-10{
+      width: 83.33333333% !important;
+  }
+  .col-md-11{
+      width: 91.66666666%;
+  }
+  .col-md-0{
+      display: none !important;
+  }
+}
+/*Pantallas pequeñas, mayores a 768 a 991 (sm) ---> col-sm*/
+@media (max-width: 991px) and (min-width: 761px){/*IPAD NORMAL*/
+  .col-sm-12{
+      width: 100% !important;
+  }
+  .col-sm-6{
+      width: 50%;
+  }
+  .col-sm-4{
+      width: 33.33333333%;
+  }
+  .col-sm-3{
+      width: 25%;
+  }
+  .col-sm-9{
+      width: 75%;
+  }
+  .col-sm-7{
+      width: 58.33333333%;
+  }
+  .col-sm-5{
+      width: 41.66666666%;
+  }
+  .col-sm-8{
+      width: 66.66666666%;
+  }
+  .col-sm-2{
+      width: 16.66666666%;
+  }
+  .col-sm-1{
+      width: 8.33333333%;
+  }
+  .col-sm-10{
+      width: 83.33333333%;
+  }
+  .col-sm-11{
+      width: 91.66666666%;
+  }
+  .col-sm-0{
+      display: none !important;
+  }
+}
+
+@media (max-width: 767px){/*Cel parado*/
+  .col-xs-12{
+      width: 100% !important;
+  }
+  .col-xs-6{
+      width: 50%;
+  }
+  .col-xs-4{
+      width: 33.33333333%;
+  }
+  .col-xs-3{
+      width: 25%;
+  }
+  .col-xs-9{
+      width: 75%;
+  }
+  .col-xs-7{
+      width: 58.33333333%;
+  }
+  .col-xs-5{
+      width: 41.66666666%;
+  }
+  .col-xs-8{
+      width: 66.66666666%;
+  }
+  .col-xs-2{
+      width: 16.66666666%;
+  }
+  .col-xs-1{
+      width: 8.33333333%;
+  }
+  .col-xs-10{
+      width: 83.33333333%;
+  }
+  .col-xs-11{
+      width: 91.66666666%;
+  }
+  .col-xs-0{
+      display: none !important;
+  }
+  section div.container div#Company-Hytorc img.Company-Pets, section div.container div#Company-Tresnak img.Company-Pets{
+      display: none;
+  }
+}
+@media (min-width:667px) and (max-width:767px){ /*Cel Hechado*/
+  .col-xp-12{
+      width: 100%;
+  }
+  .col-xp-6{
+      width: 50%;
+  }
+  .col-xp-4{
+      width: 33.33333333%;
+  }
+  .col-xp-3{
+      width: 25%;
+  }
+  .col-xp-9{
+      width: 75%;
+  }
+  .col-xp-7{
+      width: 58.33333333%;
+  }
+  .col-xp-5{
+      width: 41.66666666%;
+  }
+  .col-xp-8{
+      width: 66.66666666%;
+  }
+  .col-xp-2{
+      width: 16.66666666%;
+  }
+  .col-xp-1{
+      width: 8.33333333%;
+  }
+  .col-xp-10{
+      width: 83.33333333%;
+  }
+  .col-xp-11{
+      width: 91.66666666%;
+  }
+  .col-xp-0{
+      display: none !important;
+  }
+  section div.container div#Company-Hytorc img.Company-Pets, section div.container div#Company-Tresnak img.Company-Pets{
+      display: none;
+  }
+  section div.container{
+      height: 100vh;
+      
+  }
+}
+
