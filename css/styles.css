@@ -26,6 +26,7 @@ div.StartTheGame{
     background-size: 138% !important;
     height: 100vh;
     width: 100vw;
+    position: relative;
 }
 div.aventurasTaky{
     background: url(../img/C1.0/1.jpg) !important;
@@ -49,6 +50,17 @@ div.container-title{
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0.5, 0.1);
+}
+div.banner-Dialog{
+    background-image: url(../img/items/Dialogs.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 96%;
+    height: 51%;
+    bottom: 1%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 h1{
   font-size: 6rem;
@@ -74,7 +86,7 @@ img.eyes{
   }
 img.bottom-image {
     position: absolute;
-    bottom: 19%;
+    top: 26%;
     left: 16%;
     transform: translateX(-50%);
 }
