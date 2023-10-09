@@ -38,11 +38,9 @@ window.onload = function () {
     let cap = 1, pres = 0, num = 0, dia = 0, temp = 0, countDia = 0;
 
 
+    temp = presentDiag(0, dia, countDia, box);
+
     div.onclick = function () {
-
-        temp = presentDiag(0, dia, countDia, box);
-
-
 
         if(temp === cantDia[dia]) {
 
@@ -57,6 +55,8 @@ window.onload = function () {
             div.style.backgroundImage = urlImg(cap, pres, num);
             temp = 0;
         }
+
+        temp = presentDiag(0, dia, countDia, box);
 
         dia++;
         countDia++;
