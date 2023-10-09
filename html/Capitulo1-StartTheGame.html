@@ -8,18 +8,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
-    <div class="position-fixed top-0 start-0 w-100 h-100 StartTheGame">
+    <div class="position-fixed top-0 start-0 w-100 h-100 StartTheGame" id="back">
         <a href="">
             <img src="../img/items/setting.svg" alt="Buttom de configuraciones" width="50" class="cordenadas">
         </a>
-        <a href="">
-            <img src="../img/items/Frame 13.svg" alt="Buttom de configuraciones" width="50" class="eyes">
+        <a id="hidden" >
+            <img src="../img/items/Frame 13.svg" alt="Hidden button" width="50" class="eyes">
+        </a>
+        <a id="show" style="display: none" >
+            <img src="../img/items/Frame 13.svg" alt="Hidden button" width="50" class="eyes">
         </a>
         <img src="../img/items/Personaje.svg" alt="Personaje-NASA" width="150" class="bottom-image">
-        <div class="banner-Dialog">
+        <div id="Message" class="banner-Dialog">
             
         </div>
     </div>
+    <script src="../js/main.js"></script>
+
+    <script src="../js/Configs.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

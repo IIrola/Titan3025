@@ -1,33 +1,71 @@
 const cantDia = [];
 cantDia[0] = 3;
 cantDia[1] = 4;
-cantDia[2] = 6;
-cantDia[3] = 5;
+cantDia[2] = 4;
+cantDia[3] = 4;
 cantDia[4] = 1;
 
+
+/*Comienzo start*/
+const Introduction = 5;
+/*Comienzo marte*/
+const changesMars = [];
+changesMars[0] = 6;
+changesMars[1] = 7;
+changesMars[2] = 8;
+changesMars[3] = 9;
+changesMars[4] = 10;
+changesMars[5] = 11;
+changesMars[6] = 12;
+changesMars[7] = 13;
+changesMars[8] = 14;
+changesMars[9] = 15;
+changesMars[10] = 16;
+/*Fin marte*/
+/*Comienzo isabel*/
+const changesIsa = [];
+changesIsa[0] = 17;
+changesIsa[1] = 18;
+changesIsa[2] = 19;
+changesIsa[3] = 20;
+changesIsa[4] = 21;
+changesIsa[5] = 22;
+changesIsa[6] = 23;
+changesIsa[7] = 24;
+
+
 const dialogs= [];
+//d0
+dialogs[0] =    "¡Welcome cosmos traveler!.Today you are in for an extraordinary adventure, where the vastness of the" +
+    "universe unfolds before your eyes.";
+dialogs[1] =    "This is no ordinary journey, but a quest to understand the far reaches of space and reveal the secrets that lie in the stars.";
+dialogs[2] =    "Would you like to begin?";
+//d1
+dialogs[3]=     "In your role as an intergalactic explorer, you will embark on a mission of marvelous proportions that will" +
+    "lead you through unknown worlds, enigmatic planets and mysterious scenarios.";
+dialogs[4]=     "As you advance in your journey, you will play the complexity and the challenges that implied the Titanic" +
+    "task of terraforming Titan.";
+dialogs[5]=     "You will face cosmic challenges and uncover the deepest secrets of outer space." +
+    "You will also learn about the tremendous effort it took to explore it.";
+dialogs[6]=     "Tell me, would you like to meet me?";
+//d2
+dialogs[7] =    "I am pleased to introduce myself. My name is Taki. I am an artificial intelligence that has navigated through" +
+    "more than a thousand years of knowledge and experience, from the very dawn of existence to the ends of time.";
+dialogs[8] =    "And I am your inseparable companion in this great adventure. I hope that my advice will help you when you" +
+    "are confused and that you will find answers in my words when you need them.";
+dialogs[9] =    "Remember that I'm here to share everything I know and help you in every step you see in this great adventure!";
+dialogs[10] =   "Let me know what you would like to know!";
+//d3
+dialogs[11] =   "Remember that the decision you make at this moment will mark the beginning of your journey has been the" +
+    "unexplored";
+dialogs[12] =   "Tell me, would you dare to furrow the vast and warm horizons of Mars? Or will you plunge bravely into the" +
+    "cold and enigmatic plains of the moon Titan, unveiling the ancestral secrets they hold in their icy shadows?.";
+dialogs[13] =   "Ah, or we could visit the fabulous Elizabeth Space Station.";
+dialogs[14] =   "Tell me, what will be your decision?";
+//d4
+dialogs[15] =   "Excellent choice!!";
 
-dialogs[0] =    "Bienvenido, viajero del cosmos, Hoy te encuentras ante una aventura extraordinaria, donde la vastedad del universo se despliega ante tus ojos.";
-dialogs[1] =    "Este no es un viaje común, sino una búsqueda para comprender los confines del espacio y desvelar los secretos que yacen en las estrellas.";
-dialogs[2] =    "¿Te gustaría comenzar??";
-dialogs[3]=     "En tu papel como explorador intergaláctico, te lanzarás a una misión de proporciones maravillosas que te conducirán a través de mundos desconocidos, planetas enigmáticos y escenarios misteriosos.";
-dialogs[4]=     "A medida que avanzas en tu viaje, desentrañarás la complejidad y los desafíos que implicó la titánica tarea de terraformar Titán.";
-dialogs[5]=     "Enfrentarás desafíos cósmicos y desvelarás los secretos más profundos del espacio exterior, así mismo conocerás el tremendo esfuerzo que conllevo explorarlo.";
-dialogs[6]=     "¿Te gustaría conocerme?";
-dialogs[7] =    "Me complace presentarme.";
-dialogs[8] =    "Mi nombre es Taky, soy una Inteligencia Artificial que ha navegado a través de más de 1.000 años de conocimiento y experiencia.";
-dialogs[9] =    "Desde los albores mismos de la existencia hasta los confines finales del tiempo y seré tu compañera inseparable en esta gran aventura.";
-dialogs[10] =   "Espero que mis consejos te ayuden cuando estés confundido y que encuentres respuestas en mis palabras cuando las necesites.";
-dialogs[11] =   "Recuerda que estoy aquí para compartir todo lo que sé y ayudarte en cada paso que des en tu aventura.";
-dialogs[12] =   "¿Qué te gustaría conocer?";
-dialogs[13] =   "Recuerda que: La decisión que tomes en este momento marcará el inicio de tu viaje hacia lo inexplorado.";
-dialogs[14] =   "¿Te atreverás a surcar los extensos y cálidos horizontes de Marte?";
-dialogs[15] =   "¿O te sumergirás valientemente en las frías y enigmáticas planicies de la luna Titán, desvelando los secretos ancestrales que guardan en sus sombras gélidas?";
-dialogs[16] =   "O podemos visitar la enigmática Estación Espacial Isabel.";
-dialogs[17] =   "¿Cuál será tu elección?.";
-dialogs[18] =   "¡Excelente elección!";
-
-const mainName = "<span style='textNom'>Taky: </span>";
+const mainName = "<span style='textNom'>Taky: </span><br>";
 
 const Tc=[1, 11, 8];
 
@@ -38,11 +76,11 @@ window.onload = function () {
     let cap = 1, pres = 0, num = 0, dia = 0, temp = 0, countDia = 0;
 
 
-    temp = presentDiag(0, dia, countDia, box);
+    box.innerHTML = mainName + "Welcome adventurer!";
 
-    div.onclick = function () {
+    box.onclick = function () {
 
-        if(temp === cantDia[dia]) {
+        if(dia === cantDia[dia]) {
 
             if (num < Tc[pres]) {
                 num++;
