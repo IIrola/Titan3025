@@ -3,6 +3,7 @@
   box-sizing: border-box;
   font-family: 'Orbitron', sans-serif;
   margin: auto;
+  text-decoration: none;
 }
 html {
   scroll-behavior: smooth;
@@ -61,6 +62,25 @@ div.banner-Dialog{
     bottom: 1%;
     left: 50%;
     transform: translateX(-50%);
+}
+.circular-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Estilos para centrar horizontal y verticalmente */
+.center-divs {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9d9d9;
 }
 h1{
   font-size: 6rem;
