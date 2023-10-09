@@ -83,7 +83,12 @@ img.eyes{
     position: absolute;
     top: 15%;
     right: 3%;
-  }
+}
+img.Home{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
 img.bottom-image {
     position: absolute;
     top: 26%;
