@@ -7,5 +7,15 @@ document.onclick = function () {
     BG.style.display = "none";
     document.body.appendChild(BG);
     BG.loop = true;
+    BG.volume = 0.1;
     let nanai = BG.play();
+
+    if (nanai !== undefined) {
+        nanai.then(_ => {
+
+        }).catch(error => {
+            console.log(error);
+        });
+    }
+
 }

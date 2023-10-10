@@ -152,6 +152,7 @@ dialogs[54] =   "We will meet again, dear traveler.";
 
 const Tc=[15];
 
+
 window.onload = function () {
 
     switch (document.title) {
@@ -175,6 +176,8 @@ window.onload = function () {
     const box = document.getElementById("Message");
 
     let dia = 0, temp = 0, countDia = 0;
+
+    div.style.backgroundImage = urlImg(1, 0, 0);
 
 
     box.innerHTML = "Welcome adventurer!";
@@ -211,7 +214,7 @@ function presentDiag(countT, item) {
 
 function urlImg(cap, pres, num) {
     return 'url("../img/C' + cap + '.' + pres + '/' + num + '.jpg")';
-    //../img/C1.0/1.jpg
+    //../img/C1.0/0.jpg
 }
 
 function getDia(sec) {

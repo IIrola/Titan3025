@@ -21,7 +21,7 @@ div.index{
   width: 100vw; 
 }
 div.StartTheGame{
-    background-image: url("../img/C1.0/1.jpg");
+    background-image: url("../img/C1.0/0.jpg");
     background-repeat: no-repeat !important;
     background-position: bottom !important;
     background-size: 138% !important;
@@ -30,7 +30,7 @@ div.StartTheGame{
     position: relative;
 }
 div.aventurasTaky{
-    background: url(../img/C1.0/1.jpg) !important;
+    background: url(../img/C1.0/2.jpg) !important;
     background-repeat: no-repeat !important;
     background-position: bottom !important;
     background-size: 138% !important;
